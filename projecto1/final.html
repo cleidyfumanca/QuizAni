@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário</title>
+  <link rel="stylesheet" href="/assets/finalSytles.css">
+  <style>
+a{
+  text-decoration: none;
+  outline: none;
+  color: white;
+  font-weight: 400;
+}
+#next_btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgb(13, 162, 182);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Feliz Aniversário!</h1>
+    <div id="nomeEspecial"></div>
+    <p class="message">
+      Neste dia tão especial,<br>
+      Celebramos com emoção,<br>
+      Mais um ano sensacional,<br>
+      És a estrela, sem exceção.<br>
+    </p>
+    <button id="next_btn"> <a href="index.html">Voltar a jogar</a></button>
+
+  </div>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❆</div>
+  </div>
+  <script>
+    // Verifica o parâmetro de URL para ver se todas as respostas estavam corretas 
+    const urlParams = new URLSearchParams(window.location.search);
+    const allCorrect = urlParams.get('allCorrect');
+    if (allCorrect === 'true') {
+      document.getElementById('nomeEspecial').innerText = 'Luzimara!';
+    }
+
+  </script>
+</body>
+
+</html>

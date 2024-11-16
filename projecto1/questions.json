@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Qual é a tua escola actual?",
+    "options": [
+      "IPIL",
+      "IMEL",
+      "ITEL",
+      "ISUTIC"
+    ],
+    "answer": "ITEL",
+    "tent": "Poucos mas bons"
+  },
+  {
+    "question": "Qual é o teu curso?",
+    "options": [
+      "Informática",
+      "Electronica",
+      "Multimédia",
+      "Mecanica"
+    ],
+    "answer": "Informática",
+    "tent": "Software"
+  },
+  {
+    "question": "Qual é a tua turma?",
+    "options": [
+      "A2",
+      "M",
+      "C",
+      "A1"
+    ],
+    "answer": "A1",
+    "tent": "A"
+  },
+  {
+    "question": "Qual a tua linguagem de programação favorita?",
+    "options": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "PHP"
+    ],
+    "answer": "Python",
+    "tent": "Cobra"
+  },
+    {
+      "question": "Já foste protocolo?",
+      "options": [
+        "Sim",
+        "Não",
+        "talvez",
+        "Um dia"
+      ],
+      "answer": "Sim",
+      "tent": ""
+    }
+]
